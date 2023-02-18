@@ -31,7 +31,7 @@ p{
 }
 section{
     height: 500px;
-    border: 2px solid green;
+    clear: both;
     
 }
 .button{
@@ -42,4 +42,13 @@ section{
     background-color:orange;
     color: white;
     background-image: linear-gradient(45deg,salmon,tomato);
+}
+.half-area{
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
 }
